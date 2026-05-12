@@ -1,0 +1,8 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v5.4.0)
+
+newmtl Flour
+Kd 1 1 1
+illum 1
+map_Kd ./T_Floor_01_D.png
+

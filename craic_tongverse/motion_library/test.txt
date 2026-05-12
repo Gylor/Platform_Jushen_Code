@@ -1,0 +1,10 @@
+{
+    "initial_positions": [],
+    "sequence": [
+      {"positions": [100, ], "num_pt": 40},
+      {"positions": [100, ], "num_pt": 20},
+      {"positions": [100, ], "num_pt": 20},
+      {"positions": [100, ], "num_pt": 20},
+      {"positions": [100, ], "num_pt": 40}
+    ]
+  }
