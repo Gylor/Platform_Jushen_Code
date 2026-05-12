@@ -1,0 +1,55 @@
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+
+# IDE and editor files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+.env/
+.env.local
+
+# Debug and logs
+*.log
+*.tmp
+*.bak
+debug/captured/
+
+# Test data
+ASR/*/test_wavs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Build artifacts
+build/
+dist/
+*.so
+
+# Docker
+docker-compose.override.yml
+
+# Node.js (if any)
+node_modules/
+package-lock.json
+yarn.lock
