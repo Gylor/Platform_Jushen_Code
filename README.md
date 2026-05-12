@@ -1,6 +1,6 @@
-# Aelos跨平台具身智能创意挑战赛_2026CRAIC
+# 跨平台具身智能代码
 
-本项目包含 Aelos 机器人参加 2026 年 CRAIC（具身智能创意挑战赛）的完整代码库，涵盖虚拟仿真环节和实际机器人控制两个部分。
+本项目包含 Aelos机器人的 完整代码库，涵盖 虚拟仿真环节 和 实际机器人控制 两个部分。
 
 ## 项目结构
 
@@ -18,7 +18,7 @@ platform_jushen_code/
 │       ├── debug/            # 调试工具
 │       ├── ASR/              # 语音本地识别模型
 │       └── README.md         # 机器人控制说明文档
-├── 工程文件_EM动作函数下载/   # 动作函数文件
+├── 工程文件_EM动作函数下载/     # 动作函数文件
 │   ├── action/               # 动作文件
 │   ├── custom/               # 自定义动作
 │   └── import/               # 导入动作
@@ -50,6 +50,19 @@ platform_jushen_code/
 包含从 edu 软件导出的动作函数文件，用于机器人动作执行。
 
 ## 快速开始
+
+### 克隆项目
+
+```bash
+# 克隆仓库
+git clone https://github.com/Gylor/Platform_Jushen_Code.git
+cd platform_jushen_code
+
+# 确保拉取 LFS 管理的大文件（如 ASR 模型、场景文件等）
+git lfs pull
+```
+
+> **注意**：项目中包含由 Git LFS 管理的大文件（如语音识别模型、仿真场景资源等），克隆后必须执行 `git lfs pull` 确保这些文件能正确下载到本地
 
 ### 虚拟仿真环境
 ```bash
